@@ -1,0 +1,27 @@
+.navbar_main {
+  transition: all 0.3s ease-in;
+  position: fixed;
+  top: 0;
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+.netflix_logo {
+  object-fit: contain;
+  position: fixed;
+  left: 20px;
+  width: 95px;
+}
+.netflix_avatar {
+  cursor: pointer;
+  object-fit: contain;
+  position: fixed;
+  right: 20px;
+  width: 40px;
+}
+.navbar_black {
+  background-color: #111;
+}
